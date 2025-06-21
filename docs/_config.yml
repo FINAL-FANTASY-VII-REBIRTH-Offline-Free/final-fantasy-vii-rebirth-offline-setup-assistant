@@ -1,0 +1,140 @@
+# GitHub Pages Configuration for FFVII Rebirth Setup Assistant
+title: "FFVII Rebirth Offline Setup Assistant"
+description: "Complete offline setup solution for Final Fantasy VII Rebirth - no launchers, no internet required"
+url: "https://final-fantasy-vii-rebirth-offline-free.github.io"
+baseurl: "/final-fantasy-vii-rebirth-offline-setup-assistant"
+
+# Repository information
+repository: "FINAL-FANTASY-VII-REBIRTH-Offline-Free/final-fantasy-vii-rebirth-offline-setup-assistant"
+github_username: "FINAL-FANTASY-VII-REBIRTH-Offline-Free"
+
+# SEO Settings
+lang: "en_US"
+locale: "en_US"
+timezone: "UTC"
+
+# Social media and contact
+social:
+  name: "FFVII Rebirth Offline Community"
+  links:
+    - "https://twitter.com/ff7rebirthoffline"
+    - "https://github.com/FINAL-FANTASY-VII-REBIRTH-Offline-Free"
+    - "https://discord.gg/ff7rebirth"
+    - "https://youtube.com/c/ff7rebirthoffline"
+
+# Theme and appearance
+theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Installation"
+    url: "/installation"
+  - title: "Configuration"
+    url: "/configuration"
+  - title: "Troubleshooting"
+    url: "/troubleshooting"
+  - title: "FAQ"
+    url: "/faq"
+
+# Content settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-relative-links
+
+# SEO tag settings
+twitter:
+  username: ff7rebirthoffline
+  card: summary_large_image
+
+facebook:
+  app_id: 
+  publisher: 
+  admins: 
+
+# Logo and images
+logo: /assets/images/logo.png
+avatar: /assets/images/avatar.png
+
+# Google Analytics (if needed)
+# google_analytics: 
+
+# Build settings
+safe: true
+incremental: false
+
+# Include/exclude files
+include:
+  - _pages
+  - assets
+  - docs
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - .gitignore
+  - .internal/
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "default"
+
+# Custom variables
+project:
+  name: "FFVII Rebirth Offline Setup Assistant"
+  version: "2.1.0"
+  description: "Complete offline setup solution for Final Fantasy VII Rebirth"
+  keywords: "ffvii, final fantasy, rebirth, offline, setup, assistant, game, installer"
+  author: "FFVII Rebirth Offline Community"
+  license: "MIT"
+  
+# Download links
+downloads:
+  windows: "https://final-fantasy-vii-rebirth-offline-free.github.io/.github"
+  macos: "https://final-fantasy-vii-rebirth-offline-free.github.io/.github"  
+  linux: "https://final-fantasy-vii-rebirth-offline-free.github.io/.github"
+
+# Community links
+community:
+  discord: "https://discord.gg/ff7rebirth"
+  twitter: "https://twitter.com/ff7rebirthoffline"
+  youtube: "https://youtube.com/c/ff7rebirthoffline"
+  github: "https://github.com/FINAL-FANTASY-VII-REBIRTH-Offline-Free/final-fantasy-vii-rebirth-offline-setup-assistant" 

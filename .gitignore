@@ -1,0 +1,353 @@
+# ==================================
+# FFVII Rebirth Setup Assistant
+# .gitignore Configuration
+# ==================================
+
+# ==================================
+# SECURITY & CREDENTIALS
+# ==================================
+# Never commit sensitive information
+.internal/GITHUB_CREDENTIALS.md
+.internal/credentials/
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+config/secrets/
+
+# ==================================
+# SYSTEM & OS FILES
+# ==================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# ==================================
+# DEVELOPMENT & BUILD
+# ==================================
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+.npm
+.eslintcache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.la
+*.lo
+Debug/
+Release/
+x64/
+x86/
+[Oo]bj/
+[Bb]in/
+
+# ==================================
+# EDITORS & IDEs
+# ==================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pidb
+*.sln.iml
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==================================
+# GAME & SETUP SPECIFIC
+# ==================================
+# Game installation files
+game_files/
+installation_cache/
+temp_install/
+downloads/
+*.iso
+*.bin
+*.cue
+*.img
+*.dmg
+
+# Setup assistant cache
+cache/
+temp/
+logs/
+*.log
+install_logs/
+error_dumps/
+crash_reports/
+
+# User configurations (keep templates)
+user_configs/
+settings/user/
+profiles/
+save_backups/
+!settings/templates/
+!configs/default/
+
+# Generated files
+generated/
+output/
+build_output/
+packaged/
+releases/
+installers/
+
+# ==================================
+# DOCUMENTATION & ASSETS
+# ==================================
+# Generated documentation
+docs/_site/
+docs/.sass-cache/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+site/
+
+# Image processing
+*.psd
+*.ai
+*.sketch
+.thumbnails/
+processed_images/
+
+# ==================================
+# TESTING & CI/CD
+# ==================================
+# Test results
+test-results/
+coverage/
+.nyc_output/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# CI/CD
+.github/workflows/secrets.yml
+deployment/
+staging/
+production/
+
+# ==================================
+# DEPENDENCIES & PACKAGES
+# ==================================
+# Package managers
+vendor/
+Packages/
+packages/
+bower_components/
+
+# ==================================
+# RUNTIME & TEMP FILES
+# ==================================
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+pids/
+runtime/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*~
+.sass-cache/
+
+# ==================================
+# DATABASE & STORAGE
+# ==================================
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+database/
+db_backups/
+
+# ==================================
+# ARCHIVES & COMPRESSED
+# ==================================
+*.7z
+*.bz2
+*.gz
+*.rar
+*.tar
+*.xz
+*.zip
+*.tgz
+
+# ==================================
+# CUSTOM PROJECT EXCLUSIONS
+# ==================================
+# Add project-specific exclusions here
+user_data/
+installation_logs/
+setup_cache/
+beta_versions/
+experimental/
+
+# Keep important empty directories
+!cache/.gitkeep
+!logs/.gitkeep
+!temp/.gitkeep
+
+# ==================================
+# INTERNAL SYSTEM FILES
+# (These will be removed in final cleanup)
+# ==================================
+.internal/
+UNIVERSAL_SEO_TOOLKIT.md
+*.prompt.md
+*_TEMPLATE.md
+*_SETUP.md
