@@ -122,14 +122,8 @@ Experience Cloud's epic journey in Final Fantasy VII Rebirth with:
 
 ## 🎨 Screenshots
 
-### Setup Assistant Interface
-![Setup Assistant](https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=300&fit=crop&q=80)
-
-### Configuration Panel
-![Configuration](https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop&q=80)
-
-### Game Experience
-![Gaming](https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=600&h=300&fit=crop&q=80)
+![FF7 Rebirth World Map](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-yOhVDEqPpAG7xc7d9j7KaZJY5PMfn-o0A&s)  
+*Explore vast biomes and detailed environments*
 
 ---
 

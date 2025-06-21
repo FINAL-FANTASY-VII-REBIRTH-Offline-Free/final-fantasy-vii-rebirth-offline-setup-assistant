@@ -7,8 +7,6 @@
 
 > **🌟 Experience Cloud's epic journey without launchers, logins, or internet connection — fully offline FFVII Rebirth setup made simple!**
 
-![FFVII Rebirth Preview](https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=800&h=400&fit=crop&q=80)
-
 ## ⚡ Quick Start
 
 <div align="center">
@@ -42,19 +40,10 @@
 - ⚡ **Lightning Fast**: Direct game access without platform overhead
 - 🛠️ **Developer Tools**: Configuration editor and performance tweaks included
 
-## 📸 Screenshots & Features
+## 📸 Preview Screenshots
 
-### Setup Assistant Interface
-![Setup Assistant](https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=300&fit=crop&q=80)
-*Intuitive setup wizard with progress tracking*
-
-### Game Configuration
-![Configuration Panel](https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop&q=80)
-*Advanced graphics and performance settings*
-
-### Offline Experience
-![Offline Gaming](https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=600&h=300&fit=crop&q=80)
-*Pure gaming experience without interruptions*
+![FF7 Rebirth World Map](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-yOhVDEqPpAG7xc7d9j7KaZJY5PMfn-o0A&s)  
+*Explore vast biomes and detailed environments*
 
 ## 🚀 How to Use
 
