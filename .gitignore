@@ -351,3 +351,6 @@ UNIVERSAL_SEO_TOOLKIT.md
 *.prompt.md
 *_TEMPLATE.md
 *_SETUP.md
+
+# Allow GitHub templates
+!.github/**/*_TEMPLATE.md
